@@ -24,11 +24,7 @@ This project is an embedded system-based smart energy meter that monitors real-t
 2. Voltage is sensed through a voltage divider.
 3. Power = Voltage × Current is calculated in the microcontroller.
 4. Data is shown on LCD.
-5. If the calculated power exceeds a user-defined limit, the microcontroller turns off the relay to disconnect the load.
-
-## Code
-The code is written in C++ (Arduino framework).  
-
+5. If the calculated power exceeds a user-defined limit, the microcontroller turns off the relay to disconnect the load.  
 
 ## How to Use
 1. Connect all components as per the circuit diagram.
@@ -36,6 +32,9 @@ The code is written in C++ (Arduino framework).
 3. Power the system.
 4. The LCD will display voltage, current, and power.
 5. If power exceeds the set limit, the relay disconnects the load.
+
+## How it works
+The Arduino reads analog data from sensors, calculates power, and controls a relay based on power threshold.
 
 ## Future Improvements
 - Wi-Fi based remote monitoring (ESP8266/ESP32)
