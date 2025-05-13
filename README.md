@@ -19,9 +19,6 @@ This project is an embedded system-based smart energy meter that monitors real-t
 - Power Supply (5V/12V)
 - Misc: Resistors, wires, PCB or breadboard
 
-## Circuit Diagram
-Add an image or schematic here (PNG or Fritzing file)
-
 ## Working Principle
 1. The current sensor detects load current.
 2. Voltage is sensed through a voltage divider.
@@ -31,7 +28,6 @@ Add an image or schematic here (PNG or Fritzing file)
 
 ## Code
 The code is written in C++ (Arduino framework).  
-Upload `energy_meter.ino` to your Arduino board using the Arduino IDE.
 
 
 ## How to Use
